@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/1.png");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+}
+.hero header .logo{
+	margin-top: 30px;
+}
+.hero header .logo img{
+	width: 140px;
+	cursor: pointer;
+}
+.hero header .logo button{
+	float: right;
+	cursor: pointer;
+	color: #fbfcfd;
+	background:transparent;
+	border: 1px solid #FFF;
+	outline: none;
+	border-radius: 20px;
+	padding: 10px 25px;
+
+}
+.hero .content{
+	color:#fbfcfd;
+	position: absolute;
+	top: 40%;
+	left: 8%;
+}
+.hero .content h1{
+	font-size: 80px;
+	margin: 10px 0 30px;
+	line-height: 80px;
+
+}
+
+.hero .content button{
+	cursor: pointer;
+	color: #fbfcfd;
+	background:transparent;
+	border: 1px solid #FFF;
+	outline: none;
+	border-radius: 20px;
+	padding: 10px 25px;
+}
+.side-bar{
+	width: 50px;
+	height: 100vh;
+	background: linear-gradient(#00545d, #000729);
+	position: absolute; 
+	top: 0;
+	right: 0;
+	
+}
+.side-bar img{
+	display: block;
+	width: 25px;
+	margin: 40px auto 0;
+	cursor: pointer;
+
+}
