@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #373a3c;
+}
+textarea {
+    resize: none;
+}
+
+/* Start containter */
+.containter{
+    width: 100%;
+    height: 100%;
+
+}
+/* End containter */
+
+/* Start Sidebar */
+.sider-bar{
+    float: left;
+    width: 30%;
+    height: 100vh;
+    background-color: #006599;
+    text-align: center;
+    color: #FFF;
+    position: fixed;
+
+}
+
+.sider-bar .sidebar-headr {
+    margin: 40px 0;
+    
+}
+.sider-bar .sidebar-headr img {
+    margin-bottom: 10px;
+
+}
+.sider-bar .sidebar-headr h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 38px;
+}
+.sider-bar .sidebar-content ul{
+    text-transform: capitalize;
+}
+.sider-bar .sidebar-content ul li{
+    list-style: none;
+    margin: 35px 0;
+}
+.sider-bar .sidebar-content ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+}
+.sider-bar .sidebar-content ul li a:hover{
+    color: #f4ef5e;
+}
+/* End Sidebar */
+
+/* Start Content */
+.content{
+    float: right;
+    width: 70%;
+
+}
+
+.content .content-header img{
+    width: 100%;
+}
+.content .content-welcome {
+    margin: 70px;
+}
+.content .content-welcome h2{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #006599;
+}
+.content .content-welcome p{
+    line-height: 2.5;
+    font-weight: 300;
+    font-size: 20px;
+}
+.content .content-about {
+    margin: 70px;
+    overflow: hidden;
+}
+.content .content-about .about-image{
+    width: 30%;
+    float: left;
+}
+.content .content-about .about-image img {
+    width: 100%;
+}
+.content .content-about .about{
+    width: 63%;
+    float: right;
+    margin-left: 7%;
+    
+}
+.content .content-about .about h3{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #006599;
+}
+.content .content-about .about p{
+    line-height: 2.5;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content .content-about .about button{
+    background-color: #006599;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+}
+.content .content-about .about button:hover{
+    background-color: #2790c6;
+}
+.content .gallery-one {
+    margin: 70px;
+    overflow: hidden;
+}
+.content .gallery-one h3{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #006599;
+}
+.content .gallery-one img {
+    width: 18%;
+    margin-left: 1%;
+}
+.content .gallery-two {
+    margin: 70px;
+    overflow: hidden;
+}
+.content .gallery-two h3{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #006599;
+}
+.content .gallery-two img {
+    width: 31%;
+    margin-left: 1%;
+}
+.content .gallery-three {
+    margin: 70px;
+    overflow: hidden;
+}
+.content .gallery-three h3{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #006599;
+}
+.content .gallery-three img {
+    width: 31%;
+    margin-left: 1%;
+}
+.contact-us {
+    margin: 70px;
+    overflow: hidden;
+}
+.contact-us .contact-form {
+    float: left;
+    width: 50%;
+}
+.contact-us h3{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #006599;
+    text-transform: capitalize;
+}
+.contact-us .contact-form .form-groub {
+    margin-bottom: 12px;
+}
+.contact-us .contact-form input {
+    height: 45px;
+}
+.contact-us .contact-form textarea {
+    height: 200px;
+}
+.contact-us .contact-form button{
+    border: none;
+    outline: none;
+    background-color: #006599;
+    color: #FFF;
+    padding: 18px 45px;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contact-us .contact-form button:hover{
+    cursor: pointer;
+    color: #2790c6;
+}
+
+.contact-us .contact-form input, 
+.contact-us .contact-form textarea{
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #0a6697;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #55595c;
+}
+.contact-us .contact-form input::placeholder, 
+.contact-us .contact-form textarea::placeholder{
+    color: #4286ab;
+}
+.contact-us .contact-form input:focus, 
+.contact-us .contact-form textarea:focus{
+    border: 2px solid #66afe9;
+}
+.contact-us .contact-info{
+    width: 45%;
+    float: right;
+}
+.contact-us .contact-info p {
+    margin-bottom: 16px;
+}
+.contact-us .contact-info p, address {
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* End Content */
+/* START FOOTER */
+.footer {
+    margin: 70px 70px 40px;
+}
+.footer p {
+    font-weight: 300;
+    font-size: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: #0275d8;
+}
+.footer p a:hover {
+    color: #014c8e
+}
+/* END FOOTER*/
