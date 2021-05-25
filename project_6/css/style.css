@@ -1,0 +1,219 @@
+/*Start Main Rulez*/
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+ul,ol{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+
+/*End Main Rulez*/
+
+/*Start Header*/
+header{
+	background-color: #172236;
+	text-transform: uppercase;
+	overflow: hidden;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+header .logo h1{
+	margin:0;
+	color:#f7faf8;
+	float: left;
+	font-weight: bold;
+
+}
+header .logo h1 span{
+	color: #f4a625;
+}
+header nav ul{
+	float: right;
+}
+header nav ul li{
+	color:#f7faf8;
+	float: left;
+	padding: 10px;
+	margin:5px;
+	font-size: 18px; 
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#f7faf8;
+}
+header nav ul li a:hover{
+	color:#f4a625;
+}
+/*End Header*/
+
+/*Start Content*/
+.classroom{
+	min-height: 400px;
+	text-align: center;
+	background-image:url("../image/1.jpg");
+	font-family: 'Roboto', sans-serif;
+	padding-top: 210px;
+	padding-bottom: 60px;
+}
+.classroom h2{
+	margin:0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4f4a4a;
+	font-size: 55px;
+
+}
+.classroom h2 span{
+	color: #f4a625;
+}
+.classroom button{
+	background-color:#f4a625;
+	color: white;
+	border: none;
+	padding: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 30px;
+
+}
+.info-education{
+	min-height:600px;
+	background-color: #162336;
+	color: white;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.info-education .info{
+	width: 55%;
+	float: right;
+	margin-top: 230px;
+	margin-left:5%;
+	font-family: 'Roboto', sans-serif;
+
+}
+.info-education .info h2{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.info-education .info p{
+	line-height: 2;
+	font-size: 20px;
+	margin-top: 27px;
+}
+.info-education .education-image{
+	width: 40%;
+	float: left;
+	margin-top: 50px;
+}
+.info-education .education-image img{
+	width: 100%;
+
+}
+.register-course{
+	background-color: #2d384a;
+	min-height: 700px;
+	color: white;
+	overflow: hidden;
+}
+.register-course .coures{
+	width: 60%;
+	float: left;
+	margin-top: 250px;
+}
+.register-course .coures h2{
+	margin: 0px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+
+}
+.register-course .coures div{
+	width: 20.33333%;
+	background-color: #424b5c;
+	/*padding:20px 0;*/
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+	margin-right:25px;	
+	
+}
+.register-course .coures div span{
+	font-weight:bold;
+	font-size: 55px;
+}
+.register-course .coures div p{
+	font-weight:bold;
+	font-size: 25px;
+	color:#f4a625;
+	text-transform: uppercase;
+}
+.register-course .coures h2 span{
+	color:#f4a625;
+}
+.register-course .register{
+	width: 40%;
+	float: right;
+	background-color:#424b5c;
+	margin-top: 130px;
+	padding-bottom: 40px;
+
+}
+.register-course .register .title{
+	padding: 30px;
+	background-color: #565f6e;
+}
+.register-course .register .title p{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.register-course .register form input{
+	display: block;
+	padding:12px;
+	width: 70%;
+	margin:25px auto;
+	border: none;
+	background-color:  #565f6e;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+::placeholder {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+.register-course .register form input[type="submit"]{
+	color:white;
+	background-color:#f4a625;
+	text-transform: uppercase;
+	width: 30%;
+	padding: 16px 25px;
+}
+/*End Content*/
+
+/*Start Footer*/
+footer{
+	height: 50px;
+	background-color: #152034;
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+
+}
+footer p span{
+	color:#f4a625;
+}
+/*End Footer*/
