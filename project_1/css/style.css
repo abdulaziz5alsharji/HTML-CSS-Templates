@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*Start Header*/
+header{
+	overflow: hidden;
+	background-color:#212121;
+	color: #FFF;
+	padding: 30px 0 30px 0;
+}
+header .logo{
+	float: left;
+}
+header .logo h1{
+	text-transform: uppercase;
+}
+header .logo h1 span{
+	color: red;
+}
+header nav ul{
+	float: right;
+	text-transform: uppercase;
+
+}
+header nav ul li{
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-top:10px;
+}
+/*End Header*/
+/*Start content*/
+section{
+	min-height: 560px;
+	background-image: url("../images/4.png");
+}
+section .hero{
+	position: absolute;
+	top:300px;
+	left: 250px;
+}
+section .hero h2{
+	font-size: 40px;
+	color: #FFF;
+}
+section .hero h2 span{
+	color: red;
+}
+section .hero button{
+	background:none;
+	color: red;
+	outline: none;
+	margin-top: 20px;
+	padding:10px;
+	text-transform: uppercase;
+	font-size: 17px;
+	border: 1.5px solid red;
+}
+
+
+/*End content*/
